@@ -1,0 +1,23 @@
+body {
+    background-color: #FAFAFA;
+}
+.main_content{
+    display: flex;
+}
+.loginPage__main {
+    display: flex;
+    margin-top: 10px;
+    margin-left: -65px;
+}
+.loginPage_logo img{
+    width: 175px;
+    margin-top: 25px;
+}
+.loginCard_container{
+    margin-top: 100px;
+   
+}
+.login_panel{
+    height: 120px;
+    border-radius: 100%;
+}

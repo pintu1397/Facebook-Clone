@@ -1,0 +1,20 @@
+.imageLayout_container{
+    display: flex;
+    /* padding-left: 10px;
+    padding-right: 8px; */
+    margin-top: 15px;
+}
+.imageLayout_image{
+    max-width: 35px;
+    max-height: 35px;
+}
+.imageLayout_text{
+    font-weight: 500;
+   margin: 10px;
+    font-size: 16px;
+    font-family: inherit;
+}
+.leftSide_container{
+    overflow-Y: scroll;
+    width: 100%;
+}

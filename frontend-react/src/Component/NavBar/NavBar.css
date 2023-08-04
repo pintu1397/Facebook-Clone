@@ -1,0 +1,55 @@
+.navbar_main{
+    border-bottom: 1px solid #dbdbde;
+}
+.navbar_logo{
+    margin: 8px 10px 8px 16px;
+}
+.navbar_leftbar{
+    display: flex;
+}
+.navbar_search{
+    height:40;
+    width: 190;
+    border-radius: 25px;
+    border: 0px;
+    background-color: #EFF2F5;
+    font-size: 16px;
+    padding-left: 30px;
+    margin: 8px;
+
+}
+.navbar_container{
+    display: flex;
+    margin-left: 10px;
+}
+.navbar_tabs{
+    width: 120px;
+    height: 45px;
+    margin-top: 10px;
+
+}
+.navbar_tabs.active{
+    border-bottom:3px blue;
+}
+.navbar_righttab{
+    display: flex;
+    margin-left: 100px;
+}
+.navbar_rightimg{
+    margin-top: 10px;
+    margin-right: 20px;
+   
+
+}
+.navbar_profileName{
+    margin-top: 10px;
+    font-weight: 600px;
+}
+.messenger{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.notification{
+    margin-top: 20px;
+    margin-right: 20px;
+}

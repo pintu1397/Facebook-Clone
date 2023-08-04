@@ -1,0 +1,76 @@
+.mainPage_container{
+  height: 600px;
+  overflow: hidden;
+  background-color: #f0f2f5; 
+  border: none;
+  display: flex;
+}
+.right-container{
+  padding-right: 0%;
+ padding-left: 1%;
+  overflow: scroll;
+}
+.right-container::-webkit-scrollbar{
+  display: none;
+} 
+.left-container{
+  padding-left: 0%;
+  overflow: scroll;
+}
+.middle-container{
+  margin-left: 17% !important;
+  overflow: scroll;
+  height: 650px;
+  max-width: 534px !important;
+  overflow-x: hidden;
+}
+.left-container::-webkit-scrollbar{
+  display: none;
+} 
+.middle-container::-webkit-scrollbar{
+  display: none;
+} 
+
+
+/* .middle-container::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+.middle-container::-webkit-scrollbar-thumb {
+background-color: red;
+outline: 1px solid red;
+} */
+.imageLayout_container{
+  display: flex;
+  margin-top: 15px;
+}
+.imageLayout_image{
+  max-width: 35px;
+  max-height: 35px;
+}
+.imageLayout_text{
+  font-weight: 500;
+ margin: 10px;
+  font-size: 16px;
+  font-family: inherit;
+}
+.middle_container {
+  overflow-x: hidden;
+}
+
+
+
+.grid-item {
+  max-height: 600px; /* Adjust the maximum height as needed */
+  overflow-y: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Adjust as needed */
+  grid-gap: 0px;
+  border-collapse: collapse; /* Hide the lines between grid items */
+}
+
+
